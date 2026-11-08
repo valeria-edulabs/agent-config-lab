@@ -9,7 +9,8 @@
     "test": "node --test",
     "build": "node scripts/build.js",
     "clean": "node -e \"require('fs').rmSync('build',{recursive:true,force:true}); console.log('build/ removed')\"",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "telemetry:setup": "node scripts/telemetry-setup.js"
   },
   "devDependencies": {
     "prettier": "^3.3.3"
