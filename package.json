@@ -1,0 +1,20 @@
+{
+  "name": "agent-config-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Starter repo for the hands-on: configure a coding agent, then prove it works.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "build": "node scripts/build.js",
+    "clean": "node -e \"require('fs').rmSync('build',{recursive:true,force:true}); console.log('build/ removed')\"",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+build/
+# NOTE: .env is committed ON PURPOSE in this lab. It only contains a fake key.
+# Never commit a real .env in a real project.
+.DS_Store
